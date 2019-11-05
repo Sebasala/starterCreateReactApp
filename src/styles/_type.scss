@@ -1,21 +1,58 @@
+/* COLORS */
+/* Text colors */
+body, p {
+	color: $gray;
+}
+
+h1, h2, h3, h4, h5, h6, 
+strong {
+	color: $black;
+}
+
+a {
+	color: $blue;
+
+	&:hover {
+		color: $red;
+	}
+}
+
 /* FONTS */
 @import url($fonts-url);
 
 body {
   font-family: $default-font-family;
+  font-weight: $normal-fw;
 }
 
-/* COLORS */
+h1, h2, h3, h4, h5, h6 {
+	font-family: $headings-font-family;
+	font-weight: $bold-fw;
+}
 
+/* Font weights */
+strong {
+	font-weight: $bold-fw;
+}
+
+/* Transforms and decorations */
+a {
+	text-decoration: none;
+}
 
 /* VERTICAL RHYTHM */
-html {
-	font-size: 100%;
-}
+html { font-size: 100%; }
 
-body {
-	@include type-setting(0, $bfs, $scale);
-}
+body { @include type-setting(0, $bfs, $scale); }
 
+h6 { @include type-setting(1, $bfs, $scale); }
 
-/* TRANSFORMS AND DECORATIONS */
+h5 { @include type-setting(1, $bfs, $scale); }
+
+h4 { @include type-setting(1, $bfs, $scale); }
+
+h3 { @include type-setting(2, $bfs, $scale); }
+
+h2 { @include type-setting(3, $bfs, $scale); }
+
+h1 { @include type-setting(4, $bfs, $scale); }

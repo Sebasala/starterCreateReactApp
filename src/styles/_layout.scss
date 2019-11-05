@@ -3,6 +3,18 @@
 	box-sizing: border-box;
 }
 
-button {
-	@include button(0);
+h1, h2, h3, h4, h5, h6,
+p, li,
+.buttons {
+	max-width: $text-max-width;
+	padding: 0 2 * $blh;
+	margin: 0 auto 2 * $blh;
+}
+
+img {
+	object-fit: cover;
+	object-position: center;
+	display: block;
+	max-width: 100%;
+	margin: 0 auto 2 * $blh;
 }

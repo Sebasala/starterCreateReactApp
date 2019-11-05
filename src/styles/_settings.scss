@@ -1,41 +1,35 @@
 /* COLORS */
 /* Palette */
-$dark-color-1: 	black;
-$light-color-1: white;
-$brand-color-1: blue;
-
-/* Element colors */
-$text-color-1:		$dark-color-1;
-$bg-color-1:			$light-color-1;
-$link-color-1: 		$brand-color-1;
-$button-color-1:	$brand-color-1;
-
-/* Opacities */
-$opacity-1: 0.2;
-$opacity-2: 0.5;
-$opacity-3: 0.8;
-
+$black: 		#1A1A1A;
+$gray: 		    #666666;
+$white: 	    #F2F2F2;
+$light-gray:    #CCCCCC;
+$blue: 	        #4141B0;
+$red: 	        #E82020;
 
 /* FONTS */
 /* Font families */
-$fonts-url:           'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
-$default-font-family: 'Open Sans', sans-serif;
+$fonts-url:           	'https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700';
+$default-font-family:	'Lato', sans-serif;
+$headings-font-family: 	'Roboto', sans-serif;
 
 /* Font weights */
 $normal-fw: 400;
 $bold-fw:   700;
+$light-fw:	300;
 
 /* VERTICAL RHYTHM */
-$bfs:     1rem;
-$spacing: 1.5;
-$scale:   1.2;
-$blh:     $bfs * $spacing;
+$bfs:		1rem;
+$spacing: 	0.75;
+$scale:   	1.25;
+$blh:     	$bfs * $spacing;
 
 /* LAYOUT */
-$text-max-width: $bfs * 30;
+$text-max-width: $bfs * 33;
 
 /* BREAK POINTS */
 $bp-1: 500px;
-$bp-2: 1000px;
-$bp-3: 1500px;
-$bp-4: 2000px;
+$bp-2: 750px;
+$bp-3: 1000px;
+$bp-4: 1500px;
+$bp-5: 2000px;

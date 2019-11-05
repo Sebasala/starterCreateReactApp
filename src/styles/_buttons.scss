@@ -1,0 +1,20 @@
+button,
+.button {
+    @include type-setting(0, $bfs, $scale);
+    background-color: $blue;
+    color: $white;
+    font-family: $default-font-family;
+    font-weight: $bold-fw;
+    display: inline-block;
+	padding: $blh 2 * $blh;
+	margin: 0 0 2 * $blh;
+	border: 1px solid $blue;
+    outline: 0;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $brand-color-2;
+        color: $white;
+        border-color: $brand-color-2;
+    }
+}
